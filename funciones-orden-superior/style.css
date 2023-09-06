@@ -1,0 +1,20 @@
+.container-table {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, tr, td {
+    border: solid 1px #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    width: 10rem;
+}
+
+td {
+    padding: 0.5rem;
+}
